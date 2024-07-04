@@ -10,10 +10,7 @@ st.set_page_config(
     page_title="EDA Airbnb Amsterdam",
     page_icon="🌆",
     layout="wide")
-#Deploying cd /Users/aguedagambon/Bootcamp/Github/EDA_Airbnb_Amsterdam
-#Cargar data
-listings = pd.read_csv('/Users/aguedagambon/Bootcamp/Github/EDA_Airbnb_Amsterdam/clean_dataframes/listings2016.csv')
-listings2016 = pd.read_csv('/Users/aguedagambon/Bootcamp/Github/EDA_Airbnb_Amsterdam//clean_dataframes/listings2023.csv')
+
 #------------------------------INTRODUCCIÓN------------------------------#
 def mostrar_introduccion():
         st.markdown("""
