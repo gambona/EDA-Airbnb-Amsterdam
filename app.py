@@ -51,7 +51,7 @@ def mostrar_comparacion():
         st.image('imagenes/output2.png', use_column_width=True)
         
     with col2:
-        st.image('imagenes/output_copy_2.png, use_column_width=True)
+        st.image('imagenes/output_copy_2.png', use_column_width=True)
         st.image('imagenes/output_copy.jpg', use_column_width=True)
     st.write("Debido a las medidas turisticas tomadas por el gobierno de Amsterdam, se ha reducido el número de alojamientos en la ciudad")
     st.write("Por consecuente, y agregando la inflacción, el precio promedio de los alojamientos ha aumentado considerablemente en 7 años")
