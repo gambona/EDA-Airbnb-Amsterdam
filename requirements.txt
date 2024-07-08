@@ -1,6 +1,4 @@
-import streamlit 
-import pandas as 
-import json as 
-import matplotlib.pyplot 
-import joblib
-
+streamlit
+pandas
+numpy
+matplotlib
