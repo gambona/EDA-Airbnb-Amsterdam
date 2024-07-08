@@ -29,16 +29,16 @@ def mostrar_eda():
         </div>""", unsafe_allow_html=True)  
     st.header("Análisis Exploratorio de Datos (EDA)")
     st.write("Datos sobre Amsterdam informativos a 12 de Diciembre")
-    st.image('https://i.imgur.com/n8Twx5d.jpg', use_column_width=True)
+    st.image('imagenes/2.png', use_column_width=True)
     st.write("")
     st.write("")
-    st.image('https://i.imgur.com/CNMK2v0.jpg', use_column_width=True)
+    st.image('imagenes/3.png', use_column_width=True)
     st.write("")
     st.write("")
-    st.image('https://i.imgur.com/8Ad7jQu.jpg', use_column_width=True)
+    st.image('imagenes/4.png', use_column_width=True)
     st.write("")
     st.write("")
-    st.image('https://i.imgur.com/mNPPHPS.jpg', use_column_width=True)
+    st.image('imagenes/5.png', use_column_width=True)
 
 #------------------------------Comparación 2016 y 2023------------------------------#
 def mostrar_comparacion():
@@ -47,12 +47,12 @@ def mostrar_comparacion():
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image('https://i.imgur.com/KsR3K5E.jpg', use_column_width=True)
-        st.image('https://i.imgur.com/rEZCJhM.jpg', use_column_width=True)
+        st.image('imagenes/7barrios+airbnbt.png', use_column_width=True)
+        st.image('imagenes/output2.png', use_column_width=True)
         
     with col2:
-        st.image('https://i.imgur.com/d0fEhTK.jpg', use_column_width=True)
-        st.image('https://i.imgur.com/T4zCKoj.jpg', use_column_width=True)
+        st.image('imagenes/output_copy_2.png, use_column_width=True)
+        st.image('imagenes/output_copy.jpg', use_column_width=True)
     st.write("Debido a las medidas turisticas tomadas por el gobierno de Amsterdam, se ha reducido el número de alojamientos en la ciudad")
     st.write("Por consecuente, y agregando la inflacción, el precio promedio de los alojamientos ha aumentado considerablemente en 7 años")
 #------------------------------MAPA------------------------------#
@@ -71,11 +71,11 @@ def mostrar_reviews():
     st.write("Solo en Amsterdam, de media, el número de reviews ha aumentado un 129% de media, incluyendo los graves efectos de la pandemia en el número de reservas.")
     tab1, tab2, tab3 = st.tabs(["Reviews mensuales", "Crecimiento absoluto", "Análisis de sentimientos"])
     with tab1:
-        st.image('https://i.imgur.com/Ofiv1Ch.jpg')
+        st.image('imagenes/7.png')
     with tab2:
-        st.image('https://i.imgur.com/SnH2u8k.jpg')
+        st.image('imagenes/6.png')
     with tab3:
-        st.image('https://i.imgur.com/Ulh5IwF.jpg')
+        st.image('imagenes/8.png.jpg')
         
 #------------------------------Power BI------------------------------#
 def mostrar_powerbi():
