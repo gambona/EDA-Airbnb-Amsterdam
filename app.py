@@ -17,7 +17,7 @@ def mostrar_introduccion():
         <h1 class='centered-title-pg1'>Análisis exploratiorio de datos de Airbnb en Amsterdam</h1>
         <h3 class='centered-text-pg1'>Desde Insideairbnb.com he obtenido los datos a 2023 y los he comparado con otro análisis de 2016.</h3>
     </div>""", unsafe_allow_html=True)   
-        st.image('https://i.imgur.com/67OYIL7.jpg', use_column_width=True)
+        st.image("imagenes/portada.png", use_column_width=True)
         st.caption("Leyenda de la imagen: Generada con AI")
         
 #------------------------------EDA_2023------------------------------#
