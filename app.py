@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd 
 import json as js
 import matplotlib.pyplot as plt
-from plotly.offline import iplot,
+from plotly.offline import iplot
 import streamlit.components.v1 as components
 
 st.set_page_config(
